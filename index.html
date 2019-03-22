@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generate table</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body id="docbody">
+    <h1>Generate a table</h1>
+    <form id="data-form">
+        <fieldset>
+            <label for="schoolname">School name</label>
+            <input name="classroomname" required="required" type="text" id="schoolname">
+            <label for="minimum" min="">Minimum</label>
+            <input name="minimum" type="number" min="0" max="20" id="minimum">
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+<script src="./generateTable.js"></script>
+
+</html>
